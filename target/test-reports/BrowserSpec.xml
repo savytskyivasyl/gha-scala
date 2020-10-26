@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Vasyls-MacBook-Pro.local" name="BrowserSpec" tests="1" errors="0" failures="1" skipped="0" time="1.628" timestamp="2020-10-26T12:48:37">
+                     <properties>
+      <property name="java.specification.version" value="14"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://openjdk.java.net/"/><property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.4.0/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-04-14"/><property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="14.0.1+14"/><property name="user.name" value="vasyl.savytskyi"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/7z/0g6b_c_j6h5861mnt4kjc6700000gp/T/jna--1410379528/jna8249495854072590998.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/var/folders/7z/0g6b_c_j6h5861mnt4kjc6700000gp/T/"/><property name="java.version" value="14.0.1"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.library.path" value="/Users/vasyl.savytskyi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="N/A"/><property name="scala.ext.dirs" value="/Users/vasyl.savytskyi/.sbt/0.13/java9-rt-ext-n_a_14_0_1"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.4.0/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Oslo"/><property name="java.vm.specification.version" value="14"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/vasyl.savytskyi"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/Users/vasyl.savytskyi/.sbt/1.0"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="10.15.6"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/Users/vasyl.savytskyi/IdeaProjects/play-samples-play-scala-starter-example"/><property name="os.arch" value="x86_64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="14.0.1+14"/><property name="java.class.version" value="58.0"/>
+    </properties>
+                     <testcase classname="BrowserSpec" name="Application should work from within a browser" time="1.628">
+                                                 <failure message="org.scalatest.exceptions.TestFailedException: &quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;
+      Execution exception
+    &lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC&quot;/&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+      
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #A31012;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #690000;
+                font-size: 28px;
+            }
+            a {
+                color: #D36D6D;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F5A0A0;
+                border-top: 4px solid #D36D6D;
+                color: #730000;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7A7A;
+            }
+            p#detail.pre {
+                white-space: pre;
+                font-size: 13px;
+                overflow: auto;
+            }
+            p#detail input {
+                background: #AE1113;
+                background: -webkit-linear-gradient(#AE1113, #A31012);
+                background: -o-linear-gradient(#AE1113, #A31012);
+                background: -moz-linear-gradient(#AE1113, #A31012);
+                background: linear-gradient(#AE1113, #A31012);
+                border: 1px solid #790000;
+                padding: 3px 10px;
+                text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+                color: white;
+                border-radius: 3px;
+                cursor: pointer;
+                font-family: Monaco, 'Lucida Console';
+                font-size: 12px;
+                margin: 0 10px;
+                display: inline-block;
+                position: relative;
+                top: -1px;
+            }
+            h2 {
+                margin: 0;
+                padding: 5px 45px;
+                font-size: 12px;
+                background: #333;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-top: 4px solid #2a2a2a;
+            }
+            pre {
+                margin: 0;
+                border-bottom: 1px solid #DDD;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+                position: relative;
+                font-size: 12px;
+            }
+            pre span.line {
+                text-align: right;
+                display: inline-block;
+                padding: 5px 5px;
+                width: 30px;
+                background: #D6D6D6;
+                color: #8B8B8B;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+                font-weight: bold;
+            }
+            pre span.code {
+                padding: 5px 5px;
+                position: absolute;
+                right: 0;
+                left: 40px;
+            }
+            pre:first-child span.code {
+                border-top: 4px solid #CDCDCD;
+            }
+            pre:first-child span.line {
+                border-top: 4px solid #B6B6B6;
+            }
+            pre.error span.line {
+                background: #A31012;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+            }
+            pre.error {
+                color: #A31012;
+            }
+            pre.error span.marker {
+                background: #A31012;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+            }
+        
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body id=&quot;play-error-page&quot;&gt;
+    &lt;h1&gt;
+      Execution exception
+    &lt;/h1&gt;
+    &lt;p id=&quot;detail&quot; class=&quot;pre&quot;&gt;
+      [RuntimeException: java.lang.UnsupportedClassVersionError: controllers/routes has been compiled by a more recent version of the Java Runtime (class file version 59.0), this version of the Java Runtime only recognizes class file versions up to 58.0]
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&quot; did not include substring &quot;Your new application is ready.&quot;" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: org.scalatest.exceptions.TestFailedException: &quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;
+      Execution exception
+    &lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC&quot;/&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+      
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #A31012;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #690000;
+                font-size: 28px;
+            }
+            a {
+                color: #D36D6D;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F5A0A0;
+                border-top: 4px solid #D36D6D;
+                color: #730000;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7A7A;
+            }
+            p#detail.pre {
+                white-space: pre;
+                font-size: 13px;
+                overflow: auto;
+            }
+            p#detail input {
+                background: #AE1113;
+                background: -webkit-linear-gradient(#AE1113, #A31012);
+                background: -o-linear-gradient(#AE1113, #A31012);
+                background: -moz-linear-gradient(#AE1113, #A31012);
+                background: linear-gradient(#AE1113, #A31012);
+                border: 1px solid #790000;
+                padding: 3px 10px;
+                text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+                color: white;
+                border-radius: 3px;
+                cursor: pointer;
+                font-family: Monaco, 'Lucida Console';
+                font-size: 12px;
+                margin: 0 10px;
+                display: inline-block;
+                position: relative;
+                top: -1px;
+            }
+            h2 {
+                margin: 0;
+                padding: 5px 45px;
+                font-size: 12px;
+                background: #333;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-top: 4px solid #2a2a2a;
+            }
+            pre {
+                margin: 0;
+                border-bottom: 1px solid #DDD;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+                position: relative;
+                font-size: 12px;
+            }
+            pre span.line {
+                text-align: right;
+                display: inline-block;
+                padding: 5px 5px;
+                width: 30px;
+                background: #D6D6D6;
+                color: #8B8B8B;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+                font-weight: bold;
+            }
+            pre span.code {
+                padding: 5px 5px;
+                position: absolute;
+                right: 0;
+                left: 40px;
+            }
+            pre:first-child span.code {
+                border-top: 4px solid #CDCDCD;
+            }
+            pre:first-child span.line {
+                border-top: 4px solid #B6B6B6;
+            }
+            pre.error span.line {
+                background: #A31012;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+            }
+            pre.error {
+                color: #A31012;
+            }
+            pre.error span.marker {
+                background: #A31012;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+            }
+        
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body id=&quot;play-error-page&quot;&gt;
+    &lt;h1&gt;
+      Execution exception
+    &lt;/h1&gt;
+    &lt;p id=&quot;detail&quot; class=&quot;pre&quot;&gt;
+      [RuntimeException: java.lang.UnsupportedClassVersionError: controllers/routes has been compiled by a more recent version of the Java Runtime (class file version 59.0), this version of the Java Runtime only recognizes class file versions up to 58.0]
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&quot; did not include substring &quot;Your new application is ready.&quot;
+	at org.scalatest.MatchersHelper$.indicateFailure(MatchersHelper.scala:343)
+	at org.scalatest.MustMatchers$MustMethodHelper$.mustMatcher(MustMatchers.scala:6723)
+	at org.scalatest.MustMatchers$AnyMustWrapper.must(MustMatchers.scala:6759)
+	at BrowserSpec.$anonfun$new$2(BrowserSpec.scala:19)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.WordSpecLike$$anon$3.apply(WordSpecLike.scala:1075)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at BrowserSpec.org$scalatestplus$play$OneBrowserPerTest$$super$withFixture(BrowserSpec.scala:7)
+	at org.scalatestplus.play.OneBrowserPerTest.withFixture(OneBrowserPerTest.scala:127)
+	at org.scalatestplus.play.OneBrowserPerTest.withFixture$(OneBrowserPerTest.scala:116)
+	at BrowserSpec.org$scalatestplus$play$BaseOneServerPerTest$$super$withFixture(BrowserSpec.scala:7)
+	at org.scalatestplus.play.BaseOneServerPerTest.withFixture(BaseOneServerPerTest.scala:125)
+	at org.scalatestplus.play.BaseOneServerPerTest.withFixture$(BaseOneServerPerTest.scala:119)
+	at BrowserSpec.withFixture(BrowserSpec.scala:7)
+	at org.scalatest.WordSpecLike.invokeWithFixture$1(WordSpecLike.scala:1073)
+	at org.scalatest.WordSpecLike.$anonfun$runTest$1(WordSpecLike.scala:1085)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:286)
+	at org.scalatest.WordSpecLike.runTest(WordSpecLike.scala:1085)
+	at org.scalatest.WordSpecLike.runTest$(WordSpecLike.scala:1067)
+	at org.scalatest.WordSpec.runTest(WordSpec.scala:1881)
+	at org.scalatest.WordSpecLike.$anonfun$runTests$1(WordSpecLike.scala:1144)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:393)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:370)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:407)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:376)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:458)
+	at org.scalatest.WordSpecLike.runTests(WordSpecLike.scala:1144)
+	at org.scalatest.WordSpecLike.runTests$(WordSpecLike.scala:1143)
+	at org.scalatest.WordSpec.runTests(WordSpec.scala:1881)
+	at org.scalatest.Suite.run(Suite.scala:1124)
+	at org.scalatest.Suite.run$(Suite.scala:1106)
+	at org.scalatest.WordSpec.org$scalatest$WordSpecLike$$super$run(WordSpec.scala:1881)
+	at org.scalatest.WordSpecLike.$anonfun$run$1(WordSpecLike.scala:1189)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:518)
+	at org.scalatest.WordSpecLike.run(WordSpecLike.scala:1189)
+	at org.scalatest.WordSpecLike.run$(WordSpecLike.scala:1187)
+	at org.scalatest.WordSpec.run(WordSpec.scala:1881)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:317)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:510)
+	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
