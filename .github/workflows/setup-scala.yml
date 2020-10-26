@@ -1,4 +1,4 @@
-name: CI
+name: setup-scala test
 on: push
 
 jobs:

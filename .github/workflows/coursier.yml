@@ -1,0 +1,9 @@
+name: coursier test
+on: [push]
+jobs:
+  run-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: laughedelic/coursier-setup@v1
+      - run: sbt test
