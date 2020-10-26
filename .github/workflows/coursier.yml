@@ -6,4 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: laughedelic/coursier-setup@v1
+        with:
+          apps: 'ammonite'
       - run: sbt test
+      - run: amm main.sc
