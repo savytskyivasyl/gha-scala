@@ -1,5 +1,5 @@
 name: coursier test
-on: [pull_request]
+on: [workflow_dispatch]
 jobs:
   run-plan:
     runs-on: ubuntu-latest
